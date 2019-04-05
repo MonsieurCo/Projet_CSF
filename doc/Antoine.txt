@@ -1,3 +1,9 @@
 séance 2 :25/03/19
 nous avons créer le git et modelisé le jeton
 la nasselle est en cour  de modelisation.
+
+
+05/04/19
+J'ai du refaire l nacelle le logiciel que j'utilisais ne faisait pas des dessins vectoriels au final, j'ai recommencé sur tinkercad 
+nous avons penché pour des trous hexagonaux sur les faces de la nacelle 
+nous allons voir Mr filipi pour utiliser la découpe laser, nous avons le materiel pour la nacelle les plans de découpe sont fait il nous faut encore l'électronique et le ballon.
