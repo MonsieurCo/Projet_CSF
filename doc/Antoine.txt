@@ -7,3 +7,9 @@ la nasselle est en cour  de modelisation.
 J'ai du refaire l nacelle le logiciel que j'utilisais ne faisait pas des dessins vectoriels au final, j'ai recommencé sur tinkercad 
 nous avons penché pour des trous hexagonaux sur les faces de la nacelle 
 nous allons voir Mr filipi pour utiliser la découpe laser, nous avons le materiel pour la nacelle les plans de découpe sont fait il nous faut encore l'électronique et le ballon.
+
+Weekend du 05/04
+j'ai modélisé les raccords pour l'accrochage du ballon, nous essaierons de les imprimer dans la semaine 
+Nous avons fini le powerpoint
+
+
