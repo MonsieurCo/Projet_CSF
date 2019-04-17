@@ -13,3 +13,5 @@ j'ai modélisé les raccords pour l'accrochage du ballon, nous essaierons de les
 Nous avons fini le powerpoint
 
 
+mercredi 17/04/19
+le wethershield est soudé la phase de code sur l'arduino est le shield va débuter, les codes vont pouvoir être testé
