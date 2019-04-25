@@ -15,3 +15,11 @@ Nous avons fini le powerpoint
 
 mercredi 17/04/19
 le wethershield est soudé la phase de code sur l'arduino est le shield va débuter, les codes vont pouvoir être testé
+
+mercredi 24/04
+je me suis rendu compte qu'il était impossible de connecter le shield a l'arduino mini, le shield s'alimente en 5V, nous avons du opter pour une approche différente, nous branchons le shield sur un arduino uno prévu à cet effet et transférer les données récolté via une communication entre l'arduino Uno et l'arduino mini.
+
+jeudi 25/04
+j'ai réussi à faire les codes de transmission des données entre les deux arduino, l'arduino Uno récupère de données météorologique via le shield et concatène, les données dans une chaine de caractères nommé payload et va transmettre lettre par lettre la chaine a l'arduino mini, et a la fin de chaque boucle remettra la payload égale a une chaine de caractères vide.
+L'arduino mini quand a lui va récupérer caractères par caractère également le message qu'il va ensuite concaténer à la suite dans une chaine et qu'il transmettra en lora, pour les début nous avons effectuer une transmission simple d'arduino à arduino mais nous prévoyons d'envoyer cette chaine de caractère à la gateway pour pouvoir exploiter les données.
+
