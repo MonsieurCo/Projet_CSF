@@ -23,3 +23,13 @@ jeudi 25/04
 j'ai réussi à faire les codes de transmission des données entre les deux arduino, l'arduino Uno récupère de données météorologique via le shield et concatène, les données dans une chaine de caractères nommé payload et va transmettre lettre par lettre la chaine a l'arduino mini, et a la fin de chaque boucle remettra la payload égale a une chaine de caractères vide.
 L'arduino mini quand a lui va récupérer caractères par caractère également le message qu'il va ensuite concaténer à la suite dans une chaine et qu'il transmettra en lora, pour les début nous avons effectuer une transmission simple d'arduino à arduino mais nous prévoyons d'envoyer cette chaine de caractère à la gateway pour pouvoir exploiter les données.
 
+Lundi 29/04
+premier test d'envoi de la chaine de caractères récupéré par l'arduino mini provenant de l'arduino Uno, peu concluant le device cherche a joindre la gateway mais n'arrive pas a communiquer avec elle sur le moniteur de the things network nous apercevons les tentatives de connexions, entre temps le câblage de la boite a été fini, les attaches montés et l'anémomètre soudé, le code du uno a été modifié pour pouvoir récupérer les données provenant de l'anémomètre, malheureusement je n'arrive pas à enregistré une vitesse max j'ai la vitesse instantané à chaque envoi ainsi que la vitesse moyenne (basée sur la somme et la division du nombre de mesures) je n'arrive pas a rentrer dans ma conditions me permettant d'écrire une nouvelle vitesse max.
+
+Mardi 30/04 
+je suis toujours bloqué par rapport a l'envoi de nos données en OTAA j'ai essayé d'envoyer une chaine d caractères prédéfini, ("hello world") que la gateway reçoit sans soucis.
+je ne sais pas si il y a une longueur maximale a la chaine d e caractères pouvant être envoyer 
+
+Mercredi 01/05 
+je ne peux pas rentrer sur la face pour joindre la gateway je me renseigne sur la façon d'envoyer en OTAA la chaine de caractères, ne pouvant pas avoir de vitesse maximale, nous allons envoyer plusieurs relevé de données a la gateway pendant une durée de 5 minutes(pas encore sûr) et sélectionner la valeur de la vitesse la plus élevé.
+

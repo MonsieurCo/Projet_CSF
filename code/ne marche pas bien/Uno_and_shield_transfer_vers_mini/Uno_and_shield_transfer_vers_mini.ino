@@ -71,7 +71,7 @@ void loop()
       float tempf = myPressure.readTemp();
       float temp_av = (temp_h + tempf)/2;
       
-      payload += "t= ";
+      payload += "T= ";
       payload += temp_av;
       payload += "°C,";
 

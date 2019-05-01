@@ -8,8 +8,8 @@ int counter = 0;
 
 // Parameters you can play with :
 
-int txPower = 14; // from 0 to 20, default is 14
-int spreadingFactor = 12; // from 7 to 12, default is 12
+int txPower = 20; // from 0 to 20, default is 14
+int spreadingFactor = 7; // from 7 to 12, default is 12
 long signalBandwidth = 125E3; // 7.8E3, 10.4E3, 15.6E3, 20.8E3, 31.25E3,41.7E3,62.5E3,125E3,250E3,500e3, default is 125E3
 int codingRateDenominator=5; // Numerator is 4, and denominator from 5 to 8, default is 5
 int preambleLength=8; // from 2 to 20, default is 8
@@ -52,6 +52,7 @@ void setup() {
 }
 
 void loop() {
+  donne = "";
   while(mini.available())
   {
     char c = mini.read();
@@ -62,7 +63,7 @@ void loop() {
     }
     donne+= c;
     
-    if ( donne.length() >= 77 )
+    if ( donne.length() >= 119 )
     {
        LoRa.beginPacket();
   LoRa.print(donne);  
