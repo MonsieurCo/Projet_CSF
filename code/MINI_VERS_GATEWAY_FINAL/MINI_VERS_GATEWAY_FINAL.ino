@@ -211,7 +211,7 @@ void do_sleep(unsigned int sleepyTime) {
     LowPower.powerDown(SLEEP_1S, ADC_OFF, BOD_OFF);
   }
   addMillis(sleepyTime * 1000);
-  //delay(600000);
+  delay(600000);
 }
 
 
@@ -485,7 +485,7 @@ void loop() {
     {
       for(int i=0;i<donne.length();i++){
         mydata[i] = donne.charAt(i);
-        -
+        
       }
       for(int i=0;i<32;i++){
         Serial.print(mydata[i]);
