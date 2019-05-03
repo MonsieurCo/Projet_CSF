@@ -63,7 +63,7 @@ void loop() {
     }
     donne+= c;
     
-    if ( donne.length() >= 119 )
+    if ( donne.length() >= 73 )
     {
        LoRa.beginPacket();
   LoRa.print(donne);  
