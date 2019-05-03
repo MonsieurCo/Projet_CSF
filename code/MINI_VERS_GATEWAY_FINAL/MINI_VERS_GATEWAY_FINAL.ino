@@ -156,7 +156,7 @@ void setDataRate() {
     #ifdef SHOW_DEBUGINFO
     debugPrintLn(F("Datarate: FSK"));
     #endif
-      TX_INTERVAL = 180;
+      TX_INTERVAL = 1800;
       break;
     default: debugPrint(F("Datarate Unknown Value: "));
       debugPrintLn(LMIC.datarate); TX_INTERVAL = 600;
@@ -174,7 +174,7 @@ void addMillis(unsigned long extra_millis) {
 }
 
 void do_sleep(unsigned int sleepyTime) {
-  unsigned int eights = sleepyTime / 8;
+  unsigned int eights = sleepyTime/8;
   unsigned int fours = (sleepyTime % 8) / 4;
   unsigned int twos = ((sleepyTime % 8) % 4) / 2;
   unsigned int ones = ((sleepyTime % 8) % 4) % 2;
@@ -211,6 +211,7 @@ void do_sleep(unsigned int sleepyTime) {
     LowPower.powerDown(SLEEP_1S, ADC_OFF, BOD_OFF);
   }
   addMillis(sleepyTime * 1000);
+  delay(600000);
 }
 
 

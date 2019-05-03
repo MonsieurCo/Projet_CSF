@@ -33,3 +33,6 @@ je ne sais pas si il y a une longueur maximale a la chaine d e caractères pouva
 Mercredi 01/05 
 je ne peux pas rentrer sur la face pour joindre la gateway je me renseigne sur la façon d'envoyer en OTAA la chaine de caractères, ne pouvant pas avoir de vitesse maximale, nous allons envoyer plusieurs relevé de données a la gateway pendant une durée de 5 minutes(pas encore sûr) et sélectionner la valeur de la vitesse la plus élevé.
 
+Jeudi 2/05
+nous arrivons à transmettre les données Yann travaille sur la compréhension de la chaîne de donnés le serveur poste des données venant de la gateway sur twitter.
+
